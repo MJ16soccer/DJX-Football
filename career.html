@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Darryl Jackson's career journey, development, and goals.">
+  <title>Career Journey | DJX Football</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .career-stage { grid-template-columns: 54px 150px 86px 1fr; }
+    .career-hero-photo { height: clamp(420px, 48vw, 630px); }
+    .stage-logo-container { width: 78px; height: 78px; display: grid; place-items: center; padding: 10px; border: 1px solid rgba(212,175,55,.55); background: #050705; }
+    .stage-logo-container img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
+    .stage-logo-container.metro-logo-container { padding: 0; }
+    .stage-logo-container.metro-logo-container img { width: 90%; height: 90%; object-fit: contain; object-position: center; }
+    .stage-content { grid-column: 4; }
+    .career-stage .stage-content h3 { margin-top: 0; }
+    .honors-section { border-block: 1px solid var(--line); background: linear-gradient(145deg, rgba(27,61,42,.2), rgba(3,4,3,.94)); }
+    .honors-grid { max-width: var(--max); margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .honor-card { min-height: 190px; padding: 28px; border: 1px solid rgba(212,175,55,.48); background: rgba(3,4,3,.7); }
+    .honor-card span { color: var(--gold); font-family: "Oswald", Impact, sans-serif; font-size: 1.6rem; }
+    .honor-card h3 { margin: 24px 0 10px; font-size: 1.35rem; }
+    .honor-card p { margin: 0; font-size: .92rem; }
+    .career-quote { padding: clamp(78px, 10vw, 130px) 22px; text-align: center; background: var(--black); }
+    .career-quote p { max-width: 850px; margin: 0 auto; color: var(--gold); font-family: "Oswald", Impact, sans-serif; font-size: clamp(1.8rem, 4vw, 3.4rem); line-height: 1.08; }
+    .career-footer { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 28px; align-items: end; padding: 56px clamp(22px, 6vw, 76px); border-top: 1px solid var(--line); background: #020302; }
+    .career-footer h2 { margin: 0 0 8px; color: var(--white); font-size: 2.1rem; }
+    .career-footer .footer-role { margin: 0; color: var(--gold); font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .career-footer a, .career-footer p { margin: 0 0 8px; color: var(--muted); font-size: .9rem; }
+    .career-footer a:hover { color: var(--gold); }
+    .career-footer .footer-tagline { margin: 0; color: var(--gold); font-family: "Oswald", Impact, sans-serif; font-size: 1.1rem; text-transform: uppercase; }
+    @media (max-width: 900px) { .career-stage { grid-template-columns: 54px 130px 78px 1fr; } .honors-grid { grid-template-columns: repeat(2, 1fr); } .career-footer { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 560px) { .career-stage { grid-template-columns: 54px 1fr; gap: 18px; } .stage-label { grid-column: 2; grid-row: 1; } .stage-logo-container { grid-column: 2; grid-row: 2; } .stage-content { grid-column: 2; grid-row: 3; } .honors-grid, .career-footer { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body class="career-page">
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="DJX Football home"><img class="brand-logo-slot" src="images/djx-shield-logo.png" alt="DJX Football shield"></a>
+    <button class="nav-toggle" type="button" data-nav-toggle aria-label="Open navigation"><span></span><span></span><span></span></button>
+    <nav class="site-nav" data-nav><a href="index.html">Home</a><a href="about.html">About</a><a class="active" href="career.html">Career</a><a href="highlights.html">Highlights</a><a href="gallery.html">Gallery</a><a href="resume.html">Resume</a><a href="contact.html">Contact</a></nav>
+  </header>
+
+  <main>
+    <section class="career-hero section">
+      <div class="career-hero-copy reveal"><p class="eyebrow">The path so far</p><h1>Career Journey</h1><div class="gold-rule" aria-hidden="true"></div><p class="career-intro">From starting the game at age five to competing at the collegiate and semi-professional levels, every stage of my journey has helped shape me into the defender and teammate I am today.</p></div>
+      <figure class="career-hero-photo reveal"><img src="images/DJX-career.png" alt="Darryl Jackson career profile"><figcaption>Darryl Jackson <span>DJX Football</span></figcaption></figure>
+    </section>
+
+    <section class="career-timeline-section section">
+      <div class="section-heading reveal"><p class="eyebrow">Milestones</p><h2>Every level. Every lesson.</h2></div>
+      <div class="career-timeline">
+        <article class="career-stage reveal"><div class="stage-marker">01</div><div class="stage-label">Age 5</div><div class="stage-content"><h3>The Beginning</h3><p>Started playing soccer at age five and developed an early love for competition, teamwork, and improvement.</p></div></article>
+        <article class="career-stage reveal"><div class="stage-marker">02</div><div class="stage-label">High School</div><div class="stage-logo-container"><img src="images/Featured/fraser-logo.png.webp" alt="Fraser High School logo" decoding="async"></div><div class="stage-content"><h3>Fraser High School</h3><p>Developed as a versatile defender while gaining valuable varsity experience and learning how to compete with discipline and consistency.</p></div></article>
+        <article class="career-stage reveal"><div class="stage-marker">03</div><div class="stage-label">Club</div><div class="stage-logo-container"><img src="images/nationals-ecnl-logo.png.webp" alt="Nationals ECNL logo"></div><div class="stage-content"><h3>Nationals ECNL</h3><p>Starter for one of the top club teams in Michigan. Competed at a high level, strengthened his defensive awareness, and developed experience against elite competition.</p></div></article>
+        <article class="career-stage reveal"><div class="stage-marker">04</div><div class="stage-label">Semi-Pro</div><div class="stage-logo-container metro-logo-container"><img src="images/metro-detroit-wheels-logo-2025.jpg?v=20250714" alt="Metro Detroit Wheels logo" decoding="async"></div><div class="stage-content"><h3>Metro Detroit Wheels <span>— Semi-Pro</span></h3><p>Played with Metro Detroit Wheels during the past two summers, gaining semi-professional experience and competing against older, more experienced players.</p></div></article>
+        <article class="career-stage reveal"><div class="stage-marker">05</div><div class="stage-label">College</div><div class="stage-logo-container"><img src="images/tiffin-logo.png.png" alt="Tiffin University logo"></div><div class="stage-content"><h3>Tiffin University</h3><p>Spent his first two college seasons with the reserve team in a player pool of more than 100 athletes. Became a regular starter and served as captain in several matches. Now preparing to compete for first-team opportunities.</p></div></article>
+        <article class="career-stage reveal"><div class="stage-marker">06</div><div class="stage-label">Next</div><div class="stage-content"><h3>Next Chapter</h3><p>Focused on continuing his development, earning a larger role at the collegiate level, completing his degree, and pursuing opportunities to play professionally after college.</p></div></article>
+      </div>
+    </section>
+
+    <section class="development-section section dark-section"><div class="section-heading reveal"><p class="eyebrow">Built for the next level</p><h2>Player Development</h2></div><div class="development-grid"><article class="development-card reveal"><span>01</span><h3>Defensive Versatility</h3><p>Comfortable playing right back, left back, and center back.</p></article><article class="development-card reveal"><span>02</span><h3>Leadership</h3><p>Leads by example and has served as captain in college reserve matches.</p></article><article class="development-card reveal"><span>03</span><h3>Semi-Pro Experience</h3><p>Two summers competing with Metro Detroit Wheels.</p></article><article class="development-card reveal"><span>04</span><h3>Collegiate Growth</h3><p>Continued development at Tiffin University in a highly competitive player environment.</p></article></div></section>
+
+    <section class="honors-section section"><div class="section-heading reveal"><p class="eyebrow">Leadership in action</p><h2>Honors &amp; Leadership</h2></div><div class="honors-grid"><article class="honor-card reveal"><span>01</span><h3>Captaincy</h3><p>Served as captain in several college reserve matches.</p></article><article class="honor-card reveal"><span>02</span><h3>Regular Starter</h3><p>Became a regular starter in a competitive reserve-team player pool.</p></article><article class="honor-card reveal"><span>03</span><h3>Lead by Example</h3><p>Brings discipline, communication, and work rate to every session.</p></article></div></section>
+
+    <section class="career-quote"><p>“Defending isn't just stopping goals—it's starting attacks.”</p></section>
+
+    <section class="career-looking-ahead section"><div class="looking-ahead-inner reveal"><p class="eyebrow">The work continues</p><h2>Looking Ahead</h2><p>My goal is to compete at the highest level possible, earn my degree, and continue pursuing opportunities to play professionally after college.</p><a class="btn btn-primary" href="highlights.html">Watch Highlights</a></div></section>
+  </main>
+  <footer class="career-footer">
+    <div><h2>Darryl Jackson</h2><p class="footer-role">Fullback <span>•</span> Center Back</p></div>
+    <div><a href="mailto:contact@djxfootball.com">contact@djxfootball.com</a><a href="index.html">djxfootball.com</a><a href="highlights.html">Watch Highlights</a><a href="contact.html">Contact</a></div>
+    <p class="footer-tagline">Built to Defend. Ready to Attack.</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

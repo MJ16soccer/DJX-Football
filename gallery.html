@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | DJX Football</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header" data-header><a class="brand" href="index.html" aria-label="DJX Football home"><img class="brand-logo-slot" src="images/djx-shield-logo.png" alt="DJX Football shield"></a><button class="nav-toggle" type="button" data-nav-toggle aria-label="Open navigation"><span></span><span></span><span></span></button><nav class="site-nav" data-nav><a href="index.html">Home</a><a href="about.html">About</a><a href="career.html">Career</a><a href="highlights.html">Highlights</a><a class="active" href="gallery.html">Gallery</a><a href="resume.html">Resume</a><a href="contact.html">Contact</a></nav></header>
+  <main>
+    <section class="gallery-banner" data-gallery-banner aria-label="DJX Football photo gallery">
+      <div class="gallery-banner-slide is-active"><img src="images/Hero/gallery-banner-2.jpg.JPG" alt="Darryl Jackson competing on match day" fetchpriority="high"></div>
+      <div class="gallery-banner-slide"><img src="images/Hero/gallery-banner-1.jpg.JPG" alt="Darryl Jackson football action"></div>
+      <div class="gallery-banner-slide"><img src="images/Hero/gallery-banner-3.jpg.PNG" alt="Darryl Jackson collegiate football action"></div>
+      <div class="gallery-banner-overlay"></div>
+      <div class="gallery-banner-copy"><p class="eyebrow">DJX Football</p><h1>Photo Gallery</h1><p>Following Darryl's journey from youth soccer to collegiate competition.</p><div class="gallery-banner-actions"><a class="btn btn-primary" href="#featured">View Gallery</a><a class="btn btn-secondary" href="highlights.html">Watch Highlights</a></div></div>
+      <button class="gallery-banner-arrow gallery-banner-prev" type="button" data-banner-prev aria-label="Previous hero photo">&#8249;</button>
+      <button class="gallery-banner-arrow gallery-banner-next" type="button" data-banner-next aria-label="Next hero photo">&#8250;</button>
+      <div class="gallery-banner-dots" aria-hidden="true"><span class="is-active"></span><span></span><span></span></div>
+      <a class="gallery-scroll-arrow" href="#featured" aria-label="Scroll to Featured Moments"><span></span></a>
+    </section>
+    <nav class="gallery-filters" aria-label="Filter photo gallery">
+      <button class="is-active" type="button" data-gallery-filter="all" aria-pressed="true">All</button>
+      <button type="button" data-gallery-filter="tiffin" aria-pressed="false">Tiffin</button>
+      <button type="button" data-gallery-filter="metro" aria-pressed="false">Metro Detroit Wheels</button>
+      <button type="button" data-gallery-filter="ecnl" aria-pressed="false">ECNL</button>
+      <button type="button" data-gallery-filter="fraser" aria-pressed="false">Fraser</button>
+      <button type="button" data-gallery-filter="training" aria-pressed="false">Training</button>
+      <button type="button" data-gallery-filter="headshots" aria-pressed="false">Headshots</button>
+    </nav>
+    <div class="gallery-archive">
+      <section class="gallery-section section" id="featured" data-gallery-category="featured"><header class="gallery-section-heading reveal"><div><p class="eyebrow">Match Day</p><h2>Featured Moments</h2></div><span>01</span></header><div class="photo-grid featured-moments-grid">
+        <button class="gallery-item reveal" type="button"><img src="images/Featured/featured-01.jpg.jpeg" alt="Darryl Jackson featured match action" loading="lazy" decoding="async"></button>
+        <button class="gallery-item reveal" type="button"><img src="images/Featured/IMG_4618.PNG" alt="Darryl Jackson competing during a match" loading="lazy" decoding="async"></button>
+        <button class="gallery-item reveal" type="button"><img src="images/Featured/IMG_4621.PNG" alt="Featured DJX Football action" loading="lazy" decoding="async"></button>
+      </div></section>
+      <section class="gallery-section section" data-gallery-category="tiffin"><header class="team-gallery-heading reveal"><img src="images/tiffin-logo.png.png" alt="Tiffin University logo" loading="lazy"><div><p class="eyebrow">College</p><h2>Tiffin University</h2></div><span>02</span></header><div class="photo-grid">
+        <button class="gallery-item reveal" type="button"><img src="images/Tiffin/IMG_1527.jpg" alt="Tiffin University football match" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/Tiffin/IMG_1552.jpg" alt="Darryl Jackson playing for Tiffin University" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/Tiffin/IMG_1553.jpg" alt="Darryl Jackson in Tiffin University action" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/Tiffin/IMG_1554.jpg" alt="Tiffin University match day" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/Tiffin/IMG_3202.jpeg" alt="Tiffin University football action" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/Tiffin/IMG_8694.JPG" alt="Tiffin University team moment" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/Tiffin/IMG_8701.jpg" alt="Darryl Jackson representing Tiffin University" loading="lazy"></button>
+      </div></section>
+      <section class="gallery-section section" data-gallery-category="metro"><header class="team-gallery-heading reveal"><img src="images/metro-detroit-wheels-logo-cropped.png" alt="Metro Detroit Wheels logo" loading="lazy" decoding="async"><div><p class="eyebrow">Semi-Pro</p><h2>Metro Detroit Wheels</h2></div><span>03</span></header><div class="photo-grid">
+        <button class="gallery-item reveal" type="button"><img src="images/MetroDetroitWheels/IMG_1529.jpg" alt="Darryl Jackson with Metro Detroit Wheels" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/MetroDetroitWheels/IMG_4611.PNG" alt="Metro Detroit Wheels match action" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/MetroDetroitWheels/IMG_4612.PNG" alt="Darryl Jackson in Metro Detroit Wheels action" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/MetroDetroitWheels/IMG_4615.PNG" alt="Metro Detroit Wheels football moment" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/MetroDetroitWheels/IMG_4616.PNG" alt="Darryl Jackson competing for Metro Detroit Wheels" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/MetroDetroitWheels/IMG_4617.PNG" alt="Metro Detroit Wheels match day" loading="lazy"></button>
+      </div></section>
+      <section class="gallery-section section" data-gallery-category="ecnl"><header class="team-gallery-heading reveal"><img src="images/nationals-ecnl-logo.png.webp" alt="Nationals ECNL logo" loading="lazy"><div><p class="eyebrow">Club</p><h2>Nationals ECNL</h2></div><span>04</span></header><div class="photo-grid">
+        <button class="gallery-item reveal" type="button"><img src="images/ECNL/IMG_0358.JPG" alt="Darryl Jackson playing for Nationals FC" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/ECNL/b7c4e2be-984a-4b0d-97ca-8a5809435e90.JPG" alt="Nationals ECNL team action" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/ECNL/IMG_1557.jpg" alt="Darryl Jackson competing for Nationals ECNL" loading="lazy"></button>
+      </div></section>
+      <section class="gallery-section section" data-gallery-category="fraser"><header class="team-gallery-heading reveal"><img src="images/Featured/fraser-logo.png.webp" alt="Fraser High School logo" loading="lazy" decoding="async"><div><p class="eyebrow">High School</p><h2>Fraser High School</h2></div><span>05</span></header><div class="photo-grid">
+        <button class="gallery-item reveal" type="button"><img src="images/Fraser/gallery-banner-4.jpg.PNG" alt="Fraser High School featured football moment" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/Fraser/IMG_1548.jpeg" alt="Darryl Jackson playing for Fraser High School" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/Fraser/IMG_1549.jpeg" alt="Fraser High School team photo" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/Fraser/IMG_1550.jpeg" alt="Darryl Jackson with Fraser High School" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/Fraser/IMG_4619.PNG" alt="Fraser High School match action" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/Fraser/IMG_4622.PNG" alt="Darryl Jackson in Fraser High School action" loading="lazy"></button>
+      </div></section>
+      <section class="gallery-section section" data-gallery-category="training"><header class="gallery-section-heading reveal"><div><p class="eyebrow">Preparation</p><h2>Training</h2></div><span>06</span></header><div class="photo-grid photo-grid-two">
+        <button class="gallery-item reveal" type="button"><img src="images/Training/IMG_1525.jpg" alt="Darryl Jackson football training" loading="lazy"></button><button class="gallery-item reveal" type="button"><img src="images/Training/IMG_1526.jpg" alt="DJX Football training session" loading="lazy"></button>
+      </div></section>
+      <section class="gallery-section section" data-gallery-category="headshots"><header class="gallery-section-heading reveal"><div><p class="eyebrow">Player Profile</p><h2>Headshots</h2></div><span>07</span></header><div class="photo-grid photo-grid-headshots">
+        <button class="gallery-item reveal" type="button"><img src="images/Headshots/IMG_0408.jpeg" alt="Darryl Jackson player headshot" loading="lazy"></button>
+      </div></section>
+    </div>
+  </main>
+  <div class="lightbox" data-lightbox role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true"><div class="lightbox-backdrop" data-lightbox-close></div><button class="lightbox-close" type="button" data-lightbox-close aria-label="Close photo viewer">&times;</button><button class="lightbox-arrow lightbox-prev" type="button" data-lightbox-prev aria-label="Previous photo">&#8249;</button><figure class="lightbox-figure"><img alt="" loading="lazy" data-lightbox-image><figcaption data-lightbox-caption></figcaption></figure><button class="lightbox-arrow lightbox-next" type="button" data-lightbox-next aria-label="Next photo">&#8250;</button><p class="lightbox-count" data-lightbox-count aria-live="polite"></p></div>
+  <footer class="site-footer"><p>DJX Football | djxfootball.com</p></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
